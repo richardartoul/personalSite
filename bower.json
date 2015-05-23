@@ -1,0 +1,23 @@
+{
+  "name": "personalSite",
+  "version": "0.0.0",
+  "authors": [
+    "richardartoul@gmail.com"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "~0.9.0",
+    "core-ajax": "Polymer/core-ajax#~0.5.6",
+    "bootstrap": "~3.3.4"
+  },
+  "resolutions": {
+    "polymer": "~0.9.0"
+  }
+}
