@@ -12,10 +12,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 
 <!-- Optional theme -->
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="styles/style.css">
+<link rel="stylesheet" href="styles/tooltips.css">
 
 <!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -35,6 +35,7 @@
         </a>
       <ul class="dropdown-menu">
         <li> link 1! </li>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
       </ul>
     </li>
   </ul> -->
@@ -58,7 +59,7 @@
                       <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Portfolio<span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                          <li id="git"><a href="#">Github Visualizer</a></li>
+                          <li><a id="git" href="#">Github Visualizer</a></li>
                           <li><a href="#">Another action</a></li>
                           <li><a href="#">Something else here</a></li>
                           <li class="divider"></li>
@@ -67,6 +68,13 @@
                           <li><a href="#">One more separated link</a></li>
                         </ul>
                       </li>
+                      <form id="gitSearch" style="visibility: hidden" class="navbar-form navbar-left" role="search">
+                      <div class="form-group">
+                        <input id="searchText" type="text" class="form-control" placeholder="Search GitHub">
+                        <button id="resetButton" type="button" class="form-control">Clear</button>
+                        <!-- <button type="submit" class="btn btn-default">Submit</button> -->
+                      </div>
+                    </form>
                     </ul>
                   </div>
                 </div>
@@ -76,7 +84,12 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <!-- // <script src="js/bootstrap.min.js"></script> -->
     <script src="js/dropdown.js"></script>
+    <script src="js/BubbleChart.js"></script>
+    <script src="js/main.js"></script>
+    <script src="bower_components/d3/d3.min.js"></script>
+    <script src="bower_components/underscore/underscore-min.js">x</script>
+    <!-- // <script src="bower_components/jquery/dist/jquery.js"></script> -->
   </body>
 </html>
